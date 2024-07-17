@@ -8,8 +8,7 @@ import myFunc, { anotherFunc } from '@/utils/myUtils';
 
 
 import './MyComponent.css'; // Importação absoluta desnecessária
-import NonExistentModule from 'non-existent-module'; // Mód
-ulo inexistente
+import NonExistentModule from 'non-existent-module'; 
 
 const MyComponent = () => {
   // Variável não utilizada
@@ -28,9 +27,7 @@ const MyComponent = () => {
 
   return (
     <div>
-      {/* Caracteres não escapados */}
       <h1>It's my component!</h1>
-      {/* Espalhamento de props */}
       <SomeComponent {...data} />
     </div>
   );
