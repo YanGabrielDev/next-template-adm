@@ -23,7 +23,6 @@ const MyComponent = () => {
 
   // Desestruturação de resposta de fetch não permitida
   
-  const { id, name } = data;
 
   return (
     <div>
