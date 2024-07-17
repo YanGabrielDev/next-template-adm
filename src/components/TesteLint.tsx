@@ -6,6 +6,7 @@ import { useQuery } from '@tanstack/react-query';
 
 import myFunc, { anotherFunc } from '@/utils/myUtils';
 
+
 import './MyComponent.css'; // Importação absoluta desnecessária
 import NonExistentModule from 'non-existent-module'; // Mód
 ulo inexistente
