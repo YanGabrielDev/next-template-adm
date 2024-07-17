@@ -3,13 +3,18 @@
 import React from 'react';
 import _ from 'lodash';
 import { useQuery } from '@tanstack/react-query';
+
 import myFunc, { anotherFunc } from '@/utils/myUtils';
+
 import './MyComponent.css'; // Importação absoluta desnecessária
-import NonExistentModule from 'non-existent-module'; // Módulo inexistente
+import NonExistentModule from 'non-existent-module'; // Mód
+ulo inexistente
 
 const MyComponent = () => {
   // Variável não utilizada
+
   const unusedVar = 'I am not used';
+
 
   const { data } = useQuery('myQuery', async () => {
     const response = await fetch('/api/data');
@@ -17,6 +22,7 @@ const MyComponent = () => {
   });
 
   // Desestruturação de resposta de fetch não permitida
+  
   const { id, name } = data;
 
   return (
